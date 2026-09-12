@@ -1,0 +1,18 @@
+module.exports = {
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+  platform: 'MacIntel',
+  vendor: 'Google Inc.',
+  languages: ['en-US', 'en'],
+  hardwareConcurrency: 8,
+  deviceMemory: 8,
+  screenWidth: 1440,
+  screenHeight: 900,
+  colorDepth: 30,
+  pixelRatio: 2,
+  timezone: 'America/Los_Angeles',
+  locale: 'en-US',
+  webglVendor: 'Google Inc. (Apple)',
+  webglRenderer: 'ANGLE (Apple, Apple M1 Pro, OpenGL 4.1)',
+  oscpu: undefined,
+  appVersion: '5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+};
