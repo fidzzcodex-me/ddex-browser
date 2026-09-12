@@ -1,0 +1,18 @@
+module.exports = {
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+  platform: 'Linux x86_64',
+  vendor: 'Google Inc.',
+  languages: ['en-US', 'en'],
+  hardwareConcurrency: 4,
+  deviceMemory: 8,
+  screenWidth: 1280,
+  screenHeight: 800,
+  colorDepth: 24,
+  pixelRatio: 1,
+  timezone: 'America/Chicago',
+  locale: 'en-US',
+  webglVendor: 'Google Inc. (Intel)',
+  webglRenderer: 'ANGLE (Intel, Mesa Intel(R) UHD Graphics 630 (CFL GT2), OpenGL 4.6 (Core Profile) Mesa 23.2.1)',
+  oscpu: 'Linux x86_64',
+  appVersion: '5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+};
