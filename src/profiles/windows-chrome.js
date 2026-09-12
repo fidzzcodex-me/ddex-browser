@@ -1,0 +1,18 @@
+module.exports = {
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+  platform: 'Win32',
+  vendor: 'Google Inc.',
+  languages: ['en-US', 'en'],
+  hardwareConcurrency: 8,
+  deviceMemory: 8,
+  screenWidth: 1920,
+  screenHeight: 1080,
+  colorDepth: 24,
+  pixelRatio: 1,
+  timezone: 'America/New_York',
+  locale: 'en-US',
+  webglVendor: 'Google Inc. (Intel)',
+  webglRenderer: 'ANGLE (Intel, Intel(R) UHD Graphics 630 Direct3D11 vs_5_0 ps_5_0, D3D11)',
+  oscpu: undefined,
+  appVersion: '5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+};
