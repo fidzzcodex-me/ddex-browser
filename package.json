@@ -1,0 +1,50 @@
+{
+  "name": "ddex-browser",
+  "version": "1.0.0",
+  "description": "Maximum-bypass browser automation: real fingerprint emulation, CDP Runtime.enable patch via rebrowser, human behavior, Cloudflare Turnstile/Interstitial/JSD auto-solve.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "puppeteer",
+    "cloudflare",
+    "bypass",
+    "stealth",
+    "anti-bot",
+    "turnstile",
+    "automation",
+    "scraping",
+    "rebrowser",
+    "fingerprint"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "prepublishOnly": "node -e \"require('./src/index.js')\""
+  },
+  "dependencies": {
+    "puppeteer-core": "^21.0.0",
+    "rebrowser-puppeteer-core": "^24.8.1"
+  },
+  "optionalDependencies": {
+    "xvfb": "^0.4.0"
+  },
+  "peerDependencies": {
+    "rebrowser-puppeteer-core": ">=24.0.0"
+  },
+  "peerDependenciesMeta": {
+    "rebrowser-puppeteer-core": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/placeholder/ccid-browser"
+  },
+  "bugs": {
+    "url": "https://github.com/placeholder/ccid-browser/issues"
+  },
+  "homepage": "https://github.com/placeholder/ccid-browser#readme"
+}
